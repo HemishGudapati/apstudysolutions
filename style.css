@@ -1,0 +1,46 @@
+.Header{
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-shadow: 10px;
+    
+}
+
+#Header img{
+    margin-right: 50px;
+}
+
+.class6{
+    text-align: center;
+}
+
+.class6{
+    align-items: center;
+}
+
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    background-color: lightgreen;
+  }
+
+  @media (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+    .hidden-on-small-screens {
+      display: none;
+    }
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .item {
+    align-self: center;
+  }
+
